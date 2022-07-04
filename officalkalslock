@@ -1,45 +1,4 @@
 
-    Settings = {
-        Kalslock = {
-        Enabled = true,
-        Key = "q",
-        showdot = true,
-        airshots = false,
-        notifaction = true,
-        pingprediction = false,
-        FOV = math.huge,
-        RESOVLER = false,
-        Tracer = true,
-        TracerColor = Color3.new(255, 255, 255),
-        TracerTransparency = 0.75,
-        TracerThickness = 5,
-        Circles = true,
-        CircleFOV = 500,
-        CircleColor = Color3.new(255, 255, 255),
-        CircleThickness = 2,
-        CircleFilled = true,
-        CircleTransparency = 0.10,
-        Texts = false, 
-        TextColor = Color3.new(255, 255, 255),
-        TextSize = 35,
-        TextInput = "made by kal",
-        Hitbox = false,
-        NoBulletDelay = true,
-        Autoclicker = true,
-        AutoclickerTime = 0.01,
-        AutoclickerKey = "v"
-    
-}
-}
-
---[[
-    Parts - / HumanoidRootPart / LowerTorso / UpperTorso / Head 
-]]
-
-            local SelectedPart = "HumanoidRootPart"
-            local Prediction = true
-            local PredictionValue = 0.120689803
-
 
         local AnchorCount = 0
             local MaxAnchor = 50
